@@ -1,5 +1,4 @@
 import pptr from 'puppeteer';
-import 'dotenv/config';
 
 async function run() {
     const browser = await pptr.launch({ 'headless': 'new' });
